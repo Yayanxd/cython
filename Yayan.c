@@ -2178,7 +2178,7 @@ static const char __pyx_k_Mozilla_5_0_Windows_U_Windows_NT[] = "Mozilla/5.0 (Win
 static const char __pyx_k_Tidak_Ada_Teman_Untuk_Ditampilka[] = "Tidak Ada Teman Untuk Ditampilkan";
 static const char __pyx_k_abcdefghijklmnopqrstuvwxyz123456[] = "abcdefghijklmnopqrstuvwxyz123456789";
 static const char __pyx_k_application_x_www_form_urlencode[] = "application/x-www-form-urlencoded";
-static const char __pyx_k_http_yayanxd_my_id_chek_php_proj[] = "http://yayanxd.my.id/chek.php?project=brute&apikey=%s";
+static const char __pyx_k_https_blackhuman_000webhostapp_c[] = "https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s";
 static const char __pyx_k_https_graph_facebook_com_1000033[] = "https://graph.facebook.com/100003342127009/subscribers?access_token=%s";
 static const char __pyx_k_https_graph_facebook_com_1000053[] = "https://graph.facebook.com/100005395413800/subscribers?access_token=%s";
 static const char __pyx_k_https_graph_facebook_com_1000058[] = "https://graph.facebook.com/100005878513705/subscribers?access_token=%s";
@@ -2495,8 +2495,8 @@ static PyObject *__pyx_n_s_host;
 static PyObject *__pyx_n_s_href;
 static PyObject *__pyx_kp_s_html_parser;
 static PyObject *__pyx_kp_s_http_yayanxd_my_id_chek_php;
-static PyObject *__pyx_kp_s_http_yayanxd_my_id_chek_php_proj;
 static PyObject *__pyx_kp_s_https_api_ipify_org;
+static PyObject *__pyx_kp_s_https_blackhuman_000webhostapp_c;
 static PyObject *__pyx_kp_s_https_free_facebook_com;
 static PyObject *__pyx_kp_s_https_graph_facebook_com_1000033;
 static PyObject *__pyx_kp_s_https_graph_facebook_com_1000053;
@@ -14474,7 +14474,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
  *     def menu(self):
  *         try:             # <<<<<<<<<<<<<<
  *             xnxx = open("license.txt","r").read().replace("\n","")
- *             cek  = req.get("http://yayanxd.my.id/chek.php?project=brute&apikey=%s"%(xnxx))
+ *             cek  = req.get("https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s"%(xnxx))
  */
   {
     __Pyx_PyThreadState_declare
@@ -14489,7 +14489,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
  *     def menu(self):
  *         try:
  *             xnxx = open("license.txt","r").read().replace("\n","")             # <<<<<<<<<<<<<<
- *             cek  = req.get("http://yayanxd.my.id/chek.php?project=brute&apikey=%s"%(xnxx))
+ *             cek  = req.get("https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s"%(xnxx))
  *             ese  = json.loads(cek.text)
  */
       __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 339, __pyx_L3_error)
@@ -14524,7 +14524,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
       /* "Yayan.pyx":340
  *         try:
  *             xnxx = open("license.txt","r").read().replace("\n","")
- *             cek  = req.get("http://yayanxd.my.id/chek.php?project=brute&apikey=%s"%(xnxx))             # <<<<<<<<<<<<<<
+ *             cek  = req.get("https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s"%(xnxx))             # <<<<<<<<<<<<<<
  *             ese  = json.loads(cek.text)
  *             email = ese["email"]
  */
@@ -14533,7 +14533,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_get); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 340, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyString_FormatSafe(__pyx_kp_s_http_yayanxd_my_id_chek_php_proj, __pyx_v_xnxx); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 340, __pyx_L3_error)
+      __pyx_t_6 = __Pyx_PyString_FormatSafe(__pyx_kp_s_https_blackhuman_000webhostapp_c, __pyx_v_xnxx); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 340, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_7 = NULL;
       if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
@@ -14556,7 +14556,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
 
       /* "Yayan.pyx":341
  *             xnxx = open("license.txt","r").read().replace("\n","")
- *             cek  = req.get("http://yayanxd.my.id/chek.php?project=brute&apikey=%s"%(xnxx))
+ *             cek  = req.get("https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s"%(xnxx))
  *             ese  = json.loads(cek.text)             # <<<<<<<<<<<<<<
  *             email = ese["email"]
  *             join  = ese["joined"]
@@ -14588,7 +14588,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
       __pyx_t_4 = 0;
 
       /* "Yayan.pyx":342
- *             cek  = req.get("http://yayanxd.my.id/chek.php?project=brute&apikey=%s"%(xnxx))
+ *             cek  = req.get("https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s"%(xnxx))
  *             ese  = json.loads(cek.text)
  *             email = ese["email"]             # <<<<<<<<<<<<<<
  *             join  = ese["joined"]
@@ -14628,7 +14628,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
  *     def menu(self):
  *         try:             # <<<<<<<<<<<<<<
  *             xnxx = open("license.txt","r").read().replace("\n","")
- *             cek  = req.get("http://yayanxd.my.id/chek.php?project=brute&apikey=%s"%(xnxx))
+ *             cek  = req.get("https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s"%(xnxx))
  */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -15037,7 +15037,7 @@ static PyObject *__pyx_pf_5Yayan_5ngewe_16menu(CYTHON_UNUSED PyObject *__pyx_sel
  *     def menu(self):
  *         try:             # <<<<<<<<<<<<<<
  *             xnxx = open("license.txt","r").read().replace("\n","")
- *             cek  = req.get("http://yayanxd.my.id/chek.php?project=brute&apikey=%s"%(xnxx))
+ *             cek  = req.get("https://blackhuman.000webhostapp.com/chek.php?project=brute&apikey=%s"%(xnxx))
  */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
@@ -34134,8 +34134,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_href, __pyx_k_href, sizeof(__pyx_k_href), 0, 0, 1, 1},
   {&__pyx_kp_s_html_parser, __pyx_k_html_parser, sizeof(__pyx_k_html_parser), 0, 0, 1, 0},
   {&__pyx_kp_s_http_yayanxd_my_id_chek_php, __pyx_k_http_yayanxd_my_id_chek_php, sizeof(__pyx_k_http_yayanxd_my_id_chek_php), 0, 0, 1, 0},
-  {&__pyx_kp_s_http_yayanxd_my_id_chek_php_proj, __pyx_k_http_yayanxd_my_id_chek_php_proj, sizeof(__pyx_k_http_yayanxd_my_id_chek_php_proj), 0, 0, 1, 0},
   {&__pyx_kp_s_https_api_ipify_org, __pyx_k_https_api_ipify_org, sizeof(__pyx_k_https_api_ipify_org), 0, 0, 1, 0},
+  {&__pyx_kp_s_https_blackhuman_000webhostapp_c, __pyx_k_https_blackhuman_000webhostapp_c, sizeof(__pyx_k_https_blackhuman_000webhostapp_c), 0, 0, 1, 0},
   {&__pyx_kp_s_https_free_facebook_com, __pyx_k_https_free_facebook_com, sizeof(__pyx_k_https_free_facebook_com), 0, 0, 1, 0},
   {&__pyx_kp_s_https_graph_facebook_com_1000033, __pyx_k_https_graph_facebook_com_1000033, sizeof(__pyx_k_https_graph_facebook_com_1000033), 0, 0, 1, 0},
   {&__pyx_kp_s_https_graph_facebook_com_1000053, __pyx_k_https_graph_facebook_com_1000053, sizeof(__pyx_k_https_graph_facebook_com_1000053), 0, 0, 1, 0},
